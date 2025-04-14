@@ -2,9 +2,9 @@
     "name": "APP_Portfolio",
     "short_name": "Portfolio",
     "start_url": "/",
-    "display": "standalone", // faz o app abrir como aplicativo independente
-    "background_color": "#ffffff", // cor de fundo no carregamento do app
-    "theme-color": "#000000", // cor da barra de status
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme-color": "#000000", 
     "description": "Esse é o app dos estudantes do 3°Sistemas 2K25",
     "id": "portfolio-app",
     "dir": "ltr",
@@ -21,5 +21,18 @@
             "size": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "orientation": "portrait",
+    "screnenshots": [
+        {
+            "src": "/screenshot1.png",
+            "sizes": "320x480",
+            "type": "image.png"
+        }
+    ],
+    "categories": ["Education"],
+    "prefer_related_aplications": false,
+    "scope": "/"
+
+    
 }
